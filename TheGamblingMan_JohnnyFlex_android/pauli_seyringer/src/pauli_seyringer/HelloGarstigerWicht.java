@@ -16,5 +16,7 @@ public class HelloGarstigerWicht {
 		
 	}
 
-	public void thisIsANewMethod() {}
+	public void thisIsANewMethod() {
+		System.out.println("Call: 1-866-689-0209");
+	}
 }
