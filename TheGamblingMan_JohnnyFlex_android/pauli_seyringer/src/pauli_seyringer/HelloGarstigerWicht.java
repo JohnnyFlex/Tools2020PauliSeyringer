@@ -6,4 +6,5 @@ public class HelloGarstigerWicht {
 		System.out.println("Lassen Sie mich in Ruhe, Sie garstiger Wicht!");
 	}
 
+	public void thisIsANewMethod() {}
 }
