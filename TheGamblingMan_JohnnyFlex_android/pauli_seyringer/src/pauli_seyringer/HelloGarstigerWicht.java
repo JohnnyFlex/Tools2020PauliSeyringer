@@ -25,4 +25,10 @@ public class HelloGarstigerWicht {
 	public static int makeBaby(int ageP, int age) {
 		return ageP-age;
 	}
+	
+	public void tellOpinion(int ageP, int age) {
+		if (ageP > 18) {
+			System.out.println("Fuck off, Looser!");
+		}
+	}
 }
