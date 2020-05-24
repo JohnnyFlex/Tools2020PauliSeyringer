@@ -10,11 +10,16 @@ public class HelloGarstigerWicht {
 		
 		if(age < 18 && ageP > 18){
 			System.out.println("It's not leagal to fuck girls younger than 18 brah");
-			
+			System.out.println("Baby: " + makeBaby(ageP,age));
 		}
+		
 		
 		
 	}
 
 	public void thisIsANewMethod() {}
+	
+	public static int makeBaby(int ageP, int age) {
+		return ageP-age;
+	}
 }
