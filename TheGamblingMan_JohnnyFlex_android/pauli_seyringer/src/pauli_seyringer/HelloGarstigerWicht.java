@@ -13,7 +13,13 @@ public class HelloGarstigerWicht {
 			System.out.println("Baby: " + makeBaby(ageP,age));
 		}
 		
+<<<<<<< HEAD
 		thisIsANewMethod();
+=======
+		tellOpinion(ageP, age);
+		
+		
+>>>>>>> 0f1d3c665eb4ee6ad0828a59993c2d056f959146
 		
 	}
 
@@ -186,5 +192,13 @@ public class HelloGarstigerWicht {
 	
 	public static int makeBaby(int ageP, int age) {
 		return ageP-age;
+	}
+	
+	public static void tellOpinion(int ageP, int age) {
+		if (ageP > 18) {
+			System.out.println("Fuck off, Looser!");
+		}else {
+			System.out.println("It's free real estate.");
+		}
 	}
 }
