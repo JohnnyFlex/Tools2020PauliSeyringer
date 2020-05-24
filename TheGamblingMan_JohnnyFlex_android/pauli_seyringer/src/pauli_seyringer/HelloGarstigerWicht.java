@@ -17,7 +17,9 @@ public class HelloGarstigerWicht {
 		
 	}
 
-	public void thisIsANewMethod() {}
+	public void thisIsANewMethod() {
+		int p = makeBaby(3, 2);
+	}
 	
 	public static int makeBaby(int ageP, int age) {
 		return ageP-age;
